@@ -9,14 +9,14 @@ h1{
 h2{
     font-size: 40px;
 }
-.name-highlight {
+.orange-highlight {
     color:orange;
 }
 .half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
-    padding: 2%;
+    padding: 2% 2% 0 2%;
 }
 .half-width img{
     width:100%;
@@ -24,6 +24,7 @@ h2{
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+    padding-bottom: 100px;
 }
 section{
     height: 500px;
@@ -38,5 +39,19 @@ section{
     font-weight: 700;
 }
 .dream{
-    padding-top: 100px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    
 }
+.dream img{
+    width: 70%;
+} 
+.experience{
+    padding-top: 5%;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+}
+
