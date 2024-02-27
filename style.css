@@ -54,4 +54,25 @@ section{
     background-position: left;
     
 }
-
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+}
+#left{
+    border-left: 7px solid;
+    border-image:linear-gradient(red,blue);
+    border-image-slice: 1;
+    background-color: white;
+}
+#right{
+    border-left: 7px solid;
+    border-image: linear-gradient(green,orange);
+    border-image-slice: 1;
+}
+footer{
+    font-size: small;
+    text-align: center;
+}
+footer span{
+    color: red;
+}
